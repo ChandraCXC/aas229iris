@@ -1,0 +1,135 @@
+{
+  "model" : {
+    "name" : "m1*m3 + m2*m4",
+    "parts" : [ {
+      "name" : "template.m1",
+      "id" : null,
+      "description" : null,
+      "pars" : [ {
+        "name" : "m1.temp",
+        "val" : 60.33441608572769,
+        "link" : null,
+        "hidden" : null,
+        "frozen" : 0,
+        "min" : 20.0,
+        "max" : 100.0,
+        "units" : null,
+        "alwaysfrozen" : null
+      }, {
+        "name" : "m1.refer",
+        "val" : 1000000.0,
+        "link" : null,
+        "hidden" : null,
+        "frozen" : 1,
+        "min" : 1000000.0,
+        "max" : 1000000.0,
+        "units" : null,
+        "alwaysfrozen" : null
+      }, {
+        "name" : "m1.beta",
+        "val" : 1.5,
+        "link" : null,
+        "hidden" : null,
+        "frozen" : 1,
+        "min" : 1.5,
+        "max" : 1.5,
+        "units" : null,
+        "alwaysfrozen" : null
+      } ]
+    }, {
+      "name" : "template.m2",
+      "id" : null,
+      "description" : null,
+      "pars" : [ {
+        "name" : "m2.temp",
+        "val" : 21.926209531230363,
+        "link" : null,
+        "hidden" : null,
+        "frozen" : 0,
+        "min" : 20.0,
+        "max" : 100.0,
+        "units" : null,
+        "alwaysfrozen" : null
+      }, {
+        "name" : "m2.refer",
+        "val" : 1000000.0,
+        "link" : null,
+        "hidden" : null,
+        "frozen" : 1,
+        "min" : 1000000.0,
+        "max" : 1000000.0,
+        "units" : null,
+        "alwaysfrozen" : null
+      }, {
+        "name" : "m2.beta",
+        "val" : 1.5,
+        "link" : null,
+        "hidden" : null,
+        "frozen" : 1,
+        "min" : 1.5,
+        "max" : 1.5,
+        "units" : null,
+        "alwaysfrozen" : null
+      } ]
+    }, {
+      "pars" : [ {
+        "name" : "m3.c0",
+        "val" : 8.495249669604145E-14,
+        "min" : -3.4028234663852886E38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 0,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      } ],
+      "name" : "const1d.m3",
+      "description" : "1-D constant amplitude model",
+      "id" : "m3"
+    }, {
+      "pars" : [ {
+        "name" : "m4.c0",
+        "val" : 9.412561933251595E-13,
+        "min" : -3.4028234663852886E38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 0,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      } ],
+      "name" : "const1d.m4",
+      "description" : "1-D constant amplitude model",
+      "id" : "m4"
+    } ]
+  },
+  "fittingRanges" : [ {
+    "startPoint" : 231026.7936538984,
+    "endPoint" : 4083193.089082415,
+    "xunit" : "ANGSTROM"
+  } ],
+  "stat" : "Chi2",
+  "method" : "NelderMeadSimplex",
+  "confidence" : {
+    "name" : "conf",
+    "config" : {
+      "sigma" : 1.6
+    }
+  },
+  "rStat" : 321.0407935844008,
+  "nFev" : 1165,
+  "qVal" : 0.0,
+  "numPoints" : 319,
+  "statVal" : 101127.84997908624,
+  "dof" : 315,
+  "userModelList" : [ {
+    "name" : "template.m1",
+    "file" : "/Users/jbudynk/.vao/iris/analysis/custom_models/templates/modified-blackbody",
+    "function" : "None"
+  }, {
+    "name" : "template.m2",
+    "file" : "/Users/jbudynk/.vao/iris/analysis/custom_models/templates/modified-blackbody",
+    "function" : "None"
+  } ],
+  "confidenceResults" : null
+}

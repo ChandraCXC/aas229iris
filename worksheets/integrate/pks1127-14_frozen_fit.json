@@ -1,0 +1,193 @@
+{
+  "model" : {
+    "name" : "m5 + m6 + m7 + m8",
+    "parts" : [ {
+      "pars" : [ {
+        "name" : "m5.ref",
+        "val" : 1000000.0,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 1,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m5.c1",
+        "val" : 0.15878493411094996,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m5.c2",
+        "val" : 0.21276055063038993,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m5.ampl",
+        "val" : 0.001034150952184747,
+        "min" : 0.0,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      } ],
+      "name" : "logparabola.m5",
+      "description" : "Log-parabolic function for blazar emission",
+      "id" : "m5"
+    }, {
+      "pars" : [ {
+        "name" : "m6.ref",
+        "val" : 3.0E-4,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 1,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m6.c1",
+        "val" : 0.16,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m6.c2",
+        "val" : 0.21,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m6.ampl",
+        "val" : 0.4896695324840616,
+        "min" : 0.0,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      } ],
+      "name" : "logparabola.m6",
+      "description" : "Log-parabolic function for blazar emission",
+      "id" : "m6"
+    }, {
+      "pars" : [ {
+        "name" : "m7.ref",
+        "val" : 10241.252783999225,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m7.beta",
+        "val" : 9.999398127629384,
+        "min" : -10.0,
+        "max" : 10.0,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m7.ampl",
+        "val" : 3.1353367324821616E-12,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m7.norm",
+        "val" : 20000.0,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 1,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      } ],
+      "name" : "accretiondisk.m7",
+      "description" : "Emission due to an accretion disk",
+      "id" : "m7"
+    }, {
+      "pars" : [ {
+        "name" : "m8.refer",
+        "val" : 30000.0,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m8.ampl",
+        "val" : 1.0E-4,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      }, {
+        "name" : "m8.temperature",
+        "val" : 1366.797330915602,
+        "min" : 1.1754943508222875E-38,
+        "max" : 3.4028234663852886E38,
+        "frozen" : 1,
+        "alwaysfrozen" : 0,
+        "hidden" : null,
+        "units" : null,
+        "link" : null
+      } ],
+      "name" : "blackbody.m8",
+      "description" : "Emission from a blackbody",
+      "id" : "m8"
+    } ]
+  },
+  "fittingRanges" : [ ],
+  "stat" : "Chi2",
+  "method" : "LevenbergMarquardt",
+  "confidence" : {
+    "name" : "conf",
+    "config" : {
+      "sigma" : 1.6
+    }
+  },
+  "rStat" : "NaN",
+  "nFev" : 7,
+  "qVal" : "NaN",
+  "numPoints" : 98,
+  "statVal" : 3.2049841931636457E-4,
+  "dof" : 97,
+  "userModelList" : [ ],
+  "confidenceResults" : null
+}
