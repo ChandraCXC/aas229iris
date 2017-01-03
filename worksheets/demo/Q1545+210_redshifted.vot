@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.1"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.1"
+  xmlns:spec="http://www.ivoa.net/xml/Spectrum/Spectrum-1.01.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.1"
+  >
+  <RESOURCE utype="spec:Spectrum.Sed">
+    <TABLE utype="spec:Segment">
+      <PARAM arraysize="*" datatype="char" name="DataModel" utype="spec:Spectrum.DataModel" value="Spectrum-1.0"/>
+      <GROUP utype="spec:Spectrum.Target">
+        <PARAM arraysize="*" datatype="char" name="Name" ucd="meta.id;src" utype="spec:Spectrum.Target.Name" value="Q1545+210"/>
+        <PARAM arraysize="2" datatype="double" name="Pos" ucd="pos.eq;src" utype="spec:Spectrum.Target.Pos" value="236.93141 20.87128"/>
+      </GROUP>
+      <GROUP utype="spec:Spectrum.Char">
+        <GROUP utype="spec:Spectrum.Char.SpectralAxis">
+          <PARAM arraysize="*" datatype="char" name="SpectralAxis" ucd="em.wl" utype="spec:Spectrum.Char.SpectralAxis.Name" value="SpectralAxis"/>
+          <GROUP utype="spec:Spectrum.Char.SpectralAxis.Coverage">
+            <GROUP utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds">
+              <PARAM datatype="double" name="Extent" ucd="instr.bandwidth" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Extent" value="7.738757744102199E8"/>
+              <PARAM datatype="double" name="Min" ucd="em.wl;stat.min" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Min" value="15.800530919859535"/>
+              <PARAM datatype="double" name="Max" ucd="em.wl;stat.max" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Max" value="7.738757902107508E8"/>
+            </GROUP>
+          </GROUP>
+        </GROUP>
+        <GROUP utype="spec:Spectrum.Char.FluxAxis">
+          <PARAM arraysize="*" datatype="char" name="FluxAxis" ucd="phot.flux.density;em.freq" utype="spec:Spectrum.Char.FluxAxis.Name" value="FluxAxis"/>
+        </GROUP>
+      </GROUP>
+      <PARAM arraysize="*" datatype="char" name="iris:original redshift" ucd="" value="0.0"/>
+      <PARAM arraysize="*" datatype="char" name="iris:final redshift" ucd="" value="0.2643"/>
+      <GROUP utype="spec:Spectrum.Data">
+        <GROUP utype="spec:Spectrum.Data.SpectralAxis">
+          <FIELDref ref="ID_0"/>
+        </GROUP>
+        <GROUP utype="spec:Spectrum.Data.FluxAxis">
+          <FIELDref ref="ID_1"/>
+          <GROUP utype="spec:Spectrum.Data.FluxAxis.Accuracy">
+            <FIELDref ref="ID_2"/>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+      <FIELD ID="ID_0" datatype="double" unit="Angstrom" utype="spec:Spectrum.Data.SpectralAxis.Value"/>
+      <FIELD ID="ID_1" datatype="double" unit="Jy" utype="spec:Spectrum.Data.FluxAxis.Value"/>
+      <FIELD ID="ID_2" datatype="double" ucd="stat.error;phot.flux.density;em.wl" utype="spec:Spectrum.Data.FluxAxis.Accuracy.StatError"/>
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>15.800530919859535</TD>
+            <TD>8.672629183017911E-7</TD>
+            <TD>5.754410501117616E-18</TD>
+          </TR>
+          <TR>
+            <TD>1544.0824881312114</TD>
+            <TD>4.1509659930277434E-4</TD>
+            <TD>4.3651548648752317E-16</TD>
+          </TR>
+          <TR>
+            <TD>1732.4898075280541</TD>
+            <TD>4.24765665046002E-4</TD>
+            <TD>4.897786465301324E-16</TD>
+          </TR>
+          <TR>
+            <TD>1814.1414488461282</TD>
+            <TD>4.7659617081214576E-4</TD>
+            <TD>5.128617435838405E-16</TD>
+          </TR>
+          <TR>
+            <TD>2082.9105130163484</TD>
+            <TD>5.86340303692413E-4</TD>
+            <TD>5.88843344114168E-16</TD>
+          </TR>
+          <TR>
+            <TD>2181.0773601559113</TD>
+            <TD>5.106816838314571E-4</TD>
+            <TD>6.165953258673807E-16</TD>
+          </TR>
+          <TR>
+            <TD>2337.065060663523</TD>
+            <TD>6.578849301758853E-4</TD>
+            <TD>6.456541716579584E-16</TD>
+          </TR>
+          <TR>
+            <TD>2622.23127860862</TD>
+            <TD>9.081347234414872E-4</TD>
+            <TD>7.943285113559647E-16</TD>
+          </TR>
+          <TR>
+            <TD>2683.3123056982226</TD>
+            <TD>6.732093935707528E-4</TD>
+            <TD>8.128312276174845E-16</TD>
+          </TR>
+          <TR>
+            <TD>2745.810096045403</TD>
+            <TD>6.42909302047702E-4</TD>
+            <TD>8.31763111000347E-16</TD>
+          </TR>
+          <TR>
+            <TD>2809.7697102211764</TD>
+            <TD>9.957476493699185E-4</TD>
+            <TD>8.317635533516087E-16</TD>
+          </TR>
+          <TR>
+            <TD>2942.193178208392</TD>
+            <TD>7.049375178557824E-4</TD>
+            <TD>8.912516399423076E-16</TD>
+          </TR>
+          <TR>
+            <TD>3226.05038538125</TD>
+            <TD>5.106816838314572E-4</TD>
+            <TD>9.332549546674117E-16</TD>
+          </TR>
+          <TR>
+            <TD>3378.085598624694</TD>
+            <TD>6.42909302047702E-4</TD>
+            <TD>9.549921651302661E-16</TD>
+          </TR>
+          <TR>
+            <TD>3537.293596525824</TD>
+            <TD>8.093755687547819E-4</TD>
+            <TD>1.0000006133127383E-15</TD>
+          </TR>
+          <TR>
+            <TD>3703.9968782505816</TD>
+            <TD>7.381577357173008E-4</TD>
+            <TD>1.0471279945766892E-15</TD>
+          </TR>
+          <TR>
+            <TD>3878.564961267305</TD>
+            <TD>8.093755687547821E-4</TD>
+            <TD>1.1220190433183083E-15</TD>
+          </TR>
+          <TR>
+            <TD>3968.910436664752</TD>
+            <TD>0.0016910277692869285</TD>
+            <TD>1.1481548293334688E-15</TD>
+          </TR>
+          <TR>
+            <TD>4252.761538806191</TD>
+            <TD>0.0011971544032316592</TD>
+            <TD>1.1220189470737864E-15</TD>
+          </TR>
+          <TR>
+            <TD>4556.913287553962</TD>
+            <TD>6.732093935707528E-4</TD>
+            <TD>1.3182565042600574E-15</TD>
+          </TR>
+          <TR>
+            <TD>4771.679023927218</TD>
+            <TD>0.0012535758733668836</TD>
+            <TD>1.258926517592568E-15</TD>
+          </TR>
+          <TR>
+            <TD>4882.817557674537</TD>
+            <TD>0.0012827732656911365</TD>
+            <TD>1.288248533293805E-15</TD>
+          </TR>
+          <TR>
+            <TD>4996.555622637349</TD>
+            <TD>0.0013432269733815367</TD>
+            <TD>1.3182563911826836E-15</TD>
+          </TR>
+          <TR>
+            <TD>5232.041549164964</TD>
+            <TD>0.0014065327928805852</TD>
+            <TD>1.3803853558382891E-15</TD>
+          </TR>
+          <TR>
+            <TD>5606.2300787071645</TD>
+            <TD>0.0010189421286829119</TD>
+            <TD>1.5488168894039814E-15</TD>
+          </TR>
+          <TR>
+            <TD>5736.818976071608</TD>
+            <TD>0.0014065327928805848</TD>
+            <TD>1.513562312005786E-15</TD>
+          </TR>
+          <TR>
+            <TD>6147.108503923052</TD>
+            <TD>0.0014065327928805852</TD>
+            <TD>1.621810239813303E-15</TD>
+          </TR>
+          <TR>
+            <TD>6897.172211120061</TD>
+            <TD>0.0011432723743539234</TD>
+            <TD>1.9054617202178764E-15</TD>
+          </TR>
+          <TR>
+            <TD>7222.217676202116</TD>
+            <TD>0.0013126507027870285</TD>
+            <TD>1.9498433998801605E-15</TD>
+          </TR>
+          <TR>
+            <TD>7390.4486316963175</TD>
+            <TD>0.0011971544032316596</TD>
+            <TD>2.0417377632284814E-15</TD>
+          </TR>
+          <TR>
+            <TD>8292.223392138805</TD>
+            <TD>0.0013432299229987333</TD>
+            <TD>2.2387219239833447E-15</TD>
+          </TR>
+          <TR>
+            <TD>8683.01392578917</TD>
+            <TD>0.0013745154733006348</TD>
+            <TD>2.34422696093129E-15</TD>
+          </TR>
+          <TR>
+            <TD>8885.271984850207</TD>
+            <TD>0.0014065327928805852</TD>
+            <TD>2.398832285668625E-15</TD>
+          </TR>
+          <TR>
+            <TD>9304.031759348203</TD>
+            <TD>0.0015071294238810419</TD>
+            <TD>2.5118884159387936E-15</TD>
+          </TR>
+          <TR>
+            <TD>9520.734610165988</TD>
+            <TD>0.00161491373401816</TD>
+            <TD>2.570393523697394E-15</TD>
+          </TR>
+          <TR>
+            <TD>9969.44351690584</TD>
+            <TD>0.0015781564432926257</TD>
+            <TD>2.7542291843476313E-15</TD>
+          </TR>
+          <TR>
+            <TD>11446.438602399814</TD>
+            <TD>0.001652530778075111</TD>
+            <TD>3.2359331534958307E-15</TD>
+          </TR>
+          <TR>
+            <TD>15800.496223254793</TD>
+            <TD>0.0015781564432926257</TD>
+            <TD>4.36515716764594E-15</TD>
+          </TR>
+          <TR>
+            <TD>20829.105130163483</TD>
+            <TD>0.002033057723379893</TD>
+            <TD>5.754396334766161E-15</TD>
+          </TR>
+          <TR>
+            <TD>28097.697102211765</TD>
+            <TD>0.0036153446889070733</TD>
+            <TD>7.762469112808599E-15</TD>
+          </TR>
+          <TR>
+            <TD>44531.829303491824</TD>
+            <TD>0.010669645163781105</TD>
+            <TD>1.1748967293472916E-14</TD>
+          </TR>
+          <TR>
+            <TD>47716.79023927218</TD>
+            <TD>0.007213564181475056</TD>
+            <TD>1.3182578951125512E-14</TD>
+          </TR>
+          <TR>
+            <TD>128431.20988409381</TD>
+            <TD>0.014392927483353454</TD>
+            <TD>5.128610771017783E-14</TD>
+          </TR>
+          <TR>
+            <TD>150893.73978859096</TD>
+            <TD>0.023342648431838017</TD>
+            <TD>3.9810752023765514E-14</TD>
+          </TR>
+          <TR>
+            <TD>315261.4851782182</TD>
+            <TD>0.03148837461343473</TD>
+            <TD>8.317639172213714E-14</TD>
+          </TR>
+          <TR>
+            <TD>756259.8280264494</TD>
+            <TD>0.06282759481863048</TD>
+            <TD>2.511887543306862E-13</TD>
+          </TR>
+          <TR>
+            <TD>1255079.6809074073</TD>
+            <TD>0.0790951514672151</TD>
+            <TD>3.3113147050815847E-13</TD>
+          </TR>
+          <TR>
+            <TD>7.562598280264494E8</TD>
+            <TD>0.02388638115016815</TD>
+            <TD>2.398833962670144E-10</TD>
+          </TR>
+          <TR>
+            <TD>7.738757902107508E8</TD>
+            <TD>0.035330552928830986</TD>
+            <TD>2.0417399174041295E-10</TD>
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,37 @@
+Iris Fitting Tool - Fit Summary
+SED ID: FilterSed (Segments: 1)
+
+Model Expression: m5 + m6 + m7 + m8
+Components:
+	logparabola.m5
+		                    m5.ref =  1.00000E+06 Frozen
+		                     m5.c1 =  1.58785E-01 Frozen
+		                     m5.c2 =  2.12761E-01 Frozen
+		                   m5.ampl =  1.03415E-03 Frozen
+	logparabola.m6
+		                    m6.ref =  3.00000E-04 Frozen
+		                     m6.c1 =  1.60000E-01 Frozen
+		                     m6.c2 =  2.10000E-01 Frozen
+		                   m6.ampl =  4.89670E-01 Frozen
+	accretiondisk.m7
+		                    m7.ref =  1.02413E+04 Frozen
+		                   m7.beta =  9.99940E+00 Frozen
+		                   m7.ampl =  3.13534E-12 Frozen
+		                   m7.norm =  2.00000E+04 Frozen
+	blackbody.m8
+		                  m8.refer =  3.00000E+04 Frozen
+		                   m8.ampl =  1.00000E-04 Frozen
+		            m8.temperature =  1.36680E+03 Frozen
+
+Fit Results:
+		       Final Fit Statistic =  3.20498E-04
+		         Reduced Statistic =          NAN
+		     Probability (Q-value) =          NAN
+		        Degrees of Freedom = 97
+		               Data Points = 98
+		      Function Evaluations = 7
+
+		                 Optimizer = LevenbergMarquardt
+		 Statistic (Cost function) = Chi2
+
+User Models:

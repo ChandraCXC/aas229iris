@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.1"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.1"
+  xmlns:spec="http://www.ivoa.net/xml/Spectrum/Spectrum-1.01.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.1"
+  >
+  <RESOURCE utype="spec:Spectrum.Sed">
+    <TABLE utype="spec:Segment">
+      <PARAM arraysize="*" datatype="char" name="DataModel" utype="spec:Spectrum.DataModel" value="Spectrum-1.0"/>
+      <GROUP utype="spec:Spectrum.Target">
+        <PARAM arraysize="*" datatype="char" name="TargetName" ucd="meta.id;src" utype="spec:Spectrum.Target.Name" value="PLCKERC217 G275.28+43.63"/>
+        <PARAM arraysize="2" datatype="double" name="TargetPos" ucd="pos.eq;src" utype="spec:Spectrum.Target.Pos" value="172.53284 -14.827"/>
+      </GROUP>
+      <GROUP utype="spec:Spectrum.Char">
+        <GROUP utype="spec:Spectrum.Char.SpectralAxis">
+          <PARAM arraysize="*" datatype="char" name="SpectralAxis" ucd="em.velocity" utype="spec:Spectrum.Char.SpectralAxis.Name" value="SpectralAxis"/>
+          <GROUP utype="spec:Spectrum.Char.SpectralAxis.Coverage">
+            <GROUP utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds">
+              <PARAM datatype="double" name="Extent" ucd="instr.bandwidth" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Extent" value="1.87E11"/>
+              <PARAM datatype="double" name="Min" ucd="em.velocity;stat.min" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Min" value="3.0E10"/>
+              <PARAM datatype="double" name="Max" ucd="em.velocity;stat.max" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Max" value="2.17E11"/>
+            </GROUP>
+          </GROUP>
+        </GROUP>
+        <GROUP utype="spec:Spectrum.Char.FluxAxis">
+          <PARAM arraysize="*" datatype="char" name="FluxAxis" ucd="phot.flux.density;em.freq" utype="spec:Spectrum.Char.FluxAxis.Name" value="FluxAxis"/>
+        </GROUP>
+      </GROUP>
+      <GROUP utype="spec:Spectrum.Data">
+        <GROUP utype="spec:Spectrum.Data.SpectralAxis">
+          <FIELDref ref="ID_0"/>
+        </GROUP>
+        <GROUP utype="spec:Spectrum.Data.FluxAxis">
+          <FIELDref ref="ID_1"/>
+          <GROUP utype="spec:Spectrum.Data.FluxAxis.Accuracy">
+            <FIELDref ref="ID_2"/>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+      <FIELD ID="ID_0" datatype="double" unit="Hz" utype="spec:Spectrum.Data.SpectralAxis.Value"/>
+      <FIELD ID="ID_1" datatype="double" unit="Jy" utype="spec:Spectrum.Data.FluxAxis.Value"/>
+      <FIELD ID="ID_2" datatype="double" ucd="stat.error;phot.flux.density;em.velocity" utype="spec:Spectrum.Data.FluxAxis.Accuracy.StatError"/>
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>3.0E10</TD>
+            <TD>3.563387</TD>
+            <TD>0.0871659</TD>
+          </TR>
+          <TR>
+            <TD>7.0E10</TD>
+            <TD>2.9561200000000007</TD>
+            <TD>0.21902100000000005</TD>
+          </TR>
+          <TR>
+            <TD>1.0E11</TD>
+            <TD>2.5558190000000005</TD>
+            <TD>0.10071350000000001</TD>
+          </TR>
+          <TR>
+            <TD>1.43E11</TD>
+            <TD>1.9141930000000003</TD>
+            <TD>0.06200117000000001</TD>
+          </TR>
+          <TR>
+            <TD>2.17E11</TD>
+            <TD>1.409081</TD>
+            <TD>0.04777293000000001</TD>
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>
