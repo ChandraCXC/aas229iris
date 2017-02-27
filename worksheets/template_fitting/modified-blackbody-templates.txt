@@ -1,21 +1,21 @@
 # TEMP  REFER     BETA MODELFLAG FILENAME
-20      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_20K.dat
-25      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_25K.dat
-30      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_30K.dat
-35      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_35K.dat
-40      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_40K.dat
-45      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_45K.dat
-50      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_50K.dat
-55      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_55K.dat
-60      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_60K.dat
-65      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_65K.dat
-70      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_70K.dat
-75      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_75K.dat
-80      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_80K.dat
-85      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_85K.dat
-90      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_90K.dat
-95      1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_95K.dat
-100     1000000   1.5  1   <path-to-iris>/worksheets/template-fitting/modified-blackbody-template-library/modified-blackbody-template_100K.dat
+20      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_20K.dat
+25      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_25K.dat
+30      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_30K.dat
+35      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_35K.dat
+40      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_40K.dat
+45      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_45K.dat
+50      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_50K.dat
+55      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_55K.dat
+60      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_60K.dat
+65      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_65K.dat
+70      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_70K.dat
+75      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_75K.dat
+80      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_80K.dat
+85      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_85K.dat
+90      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_90K.dat
+95      1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_95K.dat
+100     1000000   1.5  1   /<path-to-iris>/aas229iris/worksheets/template_fitting/modified-blackbody-templates/modified-blackbody-template_100K.dat
 
 
 
